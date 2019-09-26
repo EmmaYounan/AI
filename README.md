@@ -96,6 +96,9 @@ var volwassen = document.querySelector(".volwassen");
   ```
 Using the If and else statement we determine what kind of movies should be shawn to each age group.
 
+### Bronen
+* https://www.youtube.com/watch?v=CVClHLwv-4I
+* https://github.com/justadudewhohacks/face-api.js/blob/master/examples/examples-browser/views/ageAndGenderRecognition.html#L160-L169
 
 ## Authors
 
