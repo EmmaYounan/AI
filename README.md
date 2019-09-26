@@ -6,10 +6,12 @@ Movie filter based on age. Using face detection / age recognition.
 
 Using face detection (face-api.min.js) and age recognition we were able to make a program that is able to filter movies based on the age of the user. The systeem can recognize a human face and give back a prediction of the age. Through an if and else statment we were able to determine which movies the system should show based on the age that the AI predicted.
 
+## Getting started
+
 ### Prerequisites
 
 Visual Studio Code
-Install all models and the face-api.min.js 
+Install all models, the face-api.min.js and the images folder. 
 
 ### Installing
 
@@ -96,7 +98,7 @@ var volwassen = document.querySelector(".volwassen");
   ```
 Using the If and else statement we determine what kind of movies should be shawn to each age group.
 
-### Bronen
+## References
 * https://www.youtube.com/watch?v=CVClHLwv-4I
 * https://github.com/justadudewhohacks/face-api.js/blob/master/examples/examples-browser/views/ageAndGenderRecognition.html#L160-L169
 
