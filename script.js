@@ -25,6 +25,7 @@ function startWebcam() {
     })
     .catch(e => console.log('error: ' + e));
 }
+
 var videoContainer = document.querySelector('.video-container');
 var kind = document.querySelector('.kind');
 var volwassen = document.querySelector(".volwassen");
