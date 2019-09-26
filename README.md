@@ -97,7 +97,8 @@ Using the If and else statement we determine what kind of movies should be shawn
 
 ## Authors
 
-* **Emma younan | Eva Gerritsen ** 
+* **Emma younan**
+* **Eva Gerritsen ** 
 
 
 
