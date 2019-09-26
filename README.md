@@ -9,7 +9,7 @@ Using face detection (face-api.min.js) and age recognition we were able to make 
 ### Prerequisites
 
 Visual Studio Code
-Install all models and the face-api.min.js 
+Install all models, the face-api.min.js and the image folder. 
 
 ### Installing
 
