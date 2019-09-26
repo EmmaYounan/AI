@@ -15,7 +15,7 @@ Install all models and the face-api.min.js
 
 Put the models and the face-api.min.js file that you installed in the folder that you will use for this project.
 Make an HTML file and copy our code in it.
-Do the same for js and css.
+Do the same for js and css and save all of that in your project folder.
 
 Some explanation about the code - javascript
 
