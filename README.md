@@ -19,6 +19,7 @@ Do the same for js and css.
 
 Some explanation about the code - javascript
 
+```
 Promise.all([
   faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
   faceapi.nets.faceLandmark68Net.loadFromUri('/models'),
@@ -26,9 +27,10 @@ Promise.all([
   faceapi.nets.faceExpressionNet.loadFromUri('/models'),
   faceapi.nets.ageGenderNet.loadFromUri('/models')
 ]).then(startWebcam)
-
+```
 Using this code you you will be able to load all the models that you downloaded and let them work when the webcam starts.
 
+```
 function startWebcam() {
   var vid = document.querySelector('video');
   // request cam
@@ -45,10 +47,11 @@ function startWebcam() {
     })
     .catch(e => console.log('error: ' + e));
 }
-
+```
 This is a function that starts your webcam, gets the user media and displays it in a video element on your browser.
 
 
+```
 video.addEventListener('play', () => {
   const canvas = document.createElement("canvas");
   videoContainer.append(canvas)
@@ -71,9 +74,10 @@ video.addEventListener('play', () => {
         result.detection.box.bottomLeft
       ).draw(canvas)
     })
-    
+ ```
 When the video starts The the information that you got from the models that you downloaded will be displayed on the video       using a canvas element. You will be able to see the age and the gender on each face that comes on the camera.
 
+   ```
    var videoContainer = document.querySelector('.video-container');
 var kind = document.querySelector('.kind');
 var volwassen = document.querySelector(".volwassen");
@@ -87,7 +91,7 @@ var volwassen = document.querySelector(".volwassen");
       kind.classList.add('display-none');
     }
   }, 100)
-  
+  ```
 Using the If and else statement we determine what kind of movies should be shawn to each age group.
 
 
